@@ -3,30 +3,99 @@
     max-height:100vh;
 
 }
+
 body {
     width:100vw;
-    margin:0;
+    margin:0 0 0 0%;
     overflow-x:hidden;
+    z-index:1;
+    background-image: url("../Resources/Space.jpg");
+    background-repeat: repeat;
+    background-size: 120vw 100vw;
+    background-position-y: top;
+    background-position-x: center;
 }
 
+a:hover {
+    background-color: white; 
+    border-radius:10px;
+    padding: 5px 10px 5px 10px;
+    color:black !important;
+    
+}
+#hei {
+    z-index:1;
+    display:block;
+}
+
+nav {
+    position:flex;
+    margin-top:40vh;
+}
+li:hover {
+    color: black; 
+    z-index:5;
+}
 
 @media (max-width:500px) {
 
 li {
     padding:4vw 1vw 4vw 1.5vw;
+    background-color: white;
 }
    
     
 }
 
+#MaskinlæringTxt {
+    color: white;
+    
+}
+
+#AITxt {
+    color: white;
+    
+}
+
+#RobotenesHistorieTxt {
+    color: white;
+    
+}
+
+#ForsideTxt {
+    color: white;
+    
+}
+
 .active {
-    background-color:white;
-    color:black;
+    background-color: white;
+    color: black;
+    
+}
+
+.active #ForsideTxt {
+    background-color: white;
+    color: #3B3635;
+}
+
+.active #AITxt {
+    background-color: white;
+    color: #3B3635;
+}
+
+.active #MaskinlæringTxt {
+    background-color: white;
+    color: #3B3635;
+}
+
+.active #RobotenesHistorieTxt {
+    background-color: white;
+    color: #3B3635;
 }
 
 
-
-
+@media (min-width:500px)
+{
 
 ul {
     background-color: #3B3635;
@@ -38,24 +107,17 @@ ul {
 li {
     padding: 1vw 2vw 1vw 2vw;
     margin:5px;
-    background-color:#3B3635;
-    color: white;
+    
     font-weight: 600;
     border-radius:10px;
     font-size:3vw;
 }
 
-a:hover {
-    background-color: white;
-    color:black;
-    border-radius:10px;
-    padding: 5px 10px 5px 10px;
 
-}
 a {
-    color:white;
+    
     text-decoration:none;
-    background-color:#3B3635;
+    
     padding:5px 10px 5px 10px;
     margin:5px;
 }
@@ -70,5 +132,18 @@ h2 {
 p {
     font-size: 20px;
     margin:0 2vw;
+    background-color: white;
+    padding: 6vw 23vh;
+    margin:-3vh 0 0 0;
+    margin-right:25vw;
+    max-width:75vw;
+    float:right;
+    overflow-x:hidden;
+    overflow:scroll;
 
+}
+}
+#Link1 {
+    margin-left:75;
+    
 }
